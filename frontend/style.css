@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  background-color: azure;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 600px;
+}
+
+h1 {
+  color: blueviolet;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+p {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+button {
+  margin: 0 auto;
+  margin: 25px;
+  border: none;
+  border-radius: 20px;
+  color: blueviolet;
+  font-size: 20px;
+  transition: all 200ms;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.driver_name {
+  display: flex;
+  gap: 4px;
+  padding-bottom: 50px;
+}
+
+.driver_report {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
